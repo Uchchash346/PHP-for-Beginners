@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php 
+    // Variables
     $studentName = "Mahmudur Rahman";
     $studentID = "181-15-11276";
     $cgpa = "3.72";

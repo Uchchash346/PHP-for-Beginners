@@ -47,13 +47,23 @@
     //   myTest();
 
       // string length count
-      echo strlen("Mahmudur Rahman Uchchash");
-      echo "<br>";
+    //   echo strlen("Mahmudur Rahman Uchchash");
+    //   echo "<br>";
       // string word count
-      echo str_word_count("Mahmudur Rahman Uchchash");
-      echo "<br>";
+    //   echo str_word_count("Mahmudur Rahman Uchchash");
+    //   echo "<br>";
       // String reverse
-      echo strrev("Mahmudur Rahman Uchchash");
+    //   echo strrev("Mahmudur Rahman Uchchash");
+
+      // PHP if...else...elseif Statements
+      $time = date('H');
+      if ($time < "10"){
+          echo "Have a good morning";
+      } elseif ($time <"20"){
+          echo "Have a good day";
+      } else{
+          echo "Have a good night";
+      }
     ?>
 </body>
 </html>

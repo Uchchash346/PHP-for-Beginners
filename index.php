@@ -19,33 +19,41 @@
 
     // Function in PHP
     // For global scope
-    $result = 3.92;
-    function myResult(){
-        echo "<h1>I got CGPA $result</h1>"; // It shows error
-    }
-    myResult();
-    echo "<h2>Mamur beta ami $result paisi. Yahoo!</h2>";
+    // $result = 3.92;
+    // function myResult(){
+    //     echo "<h1>I got CGPA $result</h1>"; // It shows error
+    // }
+    // myResult();
+    // echo "<h2>Mamur beta ami $result paisi. Yahoo!</h2>";
 
     // For Local scope
-    function busFair(){
-        $localFair = 50; 
-        echo "<h2>Thikana bus er vara $localFair Taka.</h2>";
-    }
-    busFair();
+    // function busFair(){
+    //     $localFair = 50; 
+    //     echo "<h2>Thikana bus er vara $localFair Taka.</h2>";
+    // }
+    // busFair();
 
     // Static keyword
-    function myTest() {
-        static $x = 0;
-        echo $x;
-        $x++;
-      }
+    // function myTest() {
+    //     static $x = 0;
+    //     echo $x;
+    //     $x++;
+    //   }
       
-      myTest();
-      echo "<br>";
-      myTest();
-      echo "<br>";
-      myTest();
+    //   myTest();
+    //   echo "<br>";
+    //   myTest();
+    //   echo "<br>";
+    //   myTest();
 
+      // string length count
+      echo strlen("Mahmudur Rahman Uchchash");
+      echo "<br>";
+      // string word count
+      echo str_word_count("Mahmudur Rahman Uchchash");
+      echo "<br>";
+      // String reverse
+      echo strrev("Mahmudur Rahman Uchchash");
     ?>
 </body>
 </html>
